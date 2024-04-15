@@ -1,0 +1,143 @@
+.homebg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#usernametxt{
+    width: 500px;
+}
+#usernametxt:hover{
+    border: 2px solid rgba(255, 0, 0, 0.556);
+    box-shadow:rgba(255, 0, 0, 0.556) 10px 8px 20px 8px ;
+}
+
+#confessiontxt{
+    width: 500px;
+}
+
+#adminloginbtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+#confessiontxt{
+    height: 300px;
+}
+
+#confessiontxt:hover{
+    border: 2px solid rgba(255, 0, 0, 0.556);
+    box-shadow:rgba(255, 0, 0, 0.556) 10px 8px 20px 8px ;
+}
+
+
+#conbtn {
+    position: absolute;
+    top: 570px;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    
+    #mainformu{
+        position: relative;
+        top:40px;
+    }
+    #mainformc{
+        position: relative;
+        top: 0px;
+    }
+    #confessiontxt{
+        height: 250px;
+    }
+    #conbtn{
+        left: 220px;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    
+    #mainformu{
+        position: relative;
+        top: 40px;
+    }
+    #mainformc{
+        position: relative;
+        top: 0px;
+    }
+    #confessiontxt{
+        height: 250px;
+    }
+    #conbtn{
+        left: 350px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 901px) {
+   
+    
+    #mainformu{
+        position: relative;
+        top: 0px;
+    }
+    #mainformc{
+        position: relative;
+        top: 0px;
+    }
+    #confessiontxt{
+        height: 250px;
+    }
+    #conbtn{
+        left: 550px;
+    }
+    
+  }
+  
+
+
+
+
+
+
+
+.logbg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+.adminbg{
+    width: 100%;
+    height: 300vh auto;
+    background-image: url(../images/backimage.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+.adminbg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    filter: blur(5px); /* Adjust the blur intensity as needed 
+  }
+ */
