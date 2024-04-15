@@ -79,7 +79,7 @@ function sendButtonClickInfo() {
     .then(response => {
         if (response.ok) {
             // Redirect to login page
-            window.location.href = 'templates/login.html';
+            window.location.href = 'templates/mainAdmin.html';
         } else {
             console.error('Error sending button click info');
             // Handle error response
